@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Map</title>
+    <link rel="stylesheet" href="map.css">
+    <link rel="stylesheet" href="../main/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="map-container">
+        <h2>Сургуулийн байршил / Улаанбаатар хот</h2>
+        <div class="map-selector">
+            <button id="btn-school" class="active">Сургууль</button>
+            <button id="btn-city">Улаанбаатар</button>
+            <button id="btn-main">Нүүр хуудас</button>
+        </div>
+        <iframe id="iframe-school" class="map-iframe active"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.998195605531!2d106.88962691255463!3d47.91707237109987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d96930fecc33dc9%3A0x12628c06cf35b517!2z0JzQsNC90LTQsNGFINC70LjRhtC10Lkg0LDRhdC70LDRhSDRgdGD0YDQs9GD0YPQu9GM!5e0!3m2!1sen!2smn!4v1747877115653!5m2!1sen!2smn"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe id="iframe-city" class="map-iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22853.25324201344!2d106.8821242!3d47.9184186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9692e3b1b2b1e1%3A0x7e4e3b6b7e3b6b7e!2sUlaanbaatar%2C%20Mongolia!5e0!3m2!1sen!2smn!4v1716290000000!5m2!1sen!2smn"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+    <script src="map.js"></script>
+</body>
+
+</html>
